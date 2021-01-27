@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "Track RSS channels",
+  "main": "src/init.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutburatino/frontend-project-lvl3.git"
+  },
+  "keywords": [
+    "RSS"
+  ],
+  "author": "Mikhail Proskuryakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tutburatino/frontend-project-lvl3/issues"
+  },
+  "homepage": "https://github.com/tutburatino/frontend-project-lvl3#readme"
+}
