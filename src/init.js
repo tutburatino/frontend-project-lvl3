@@ -1,4 +1,4 @@
-import '../node_modules/bootstrap/scss/bootstrap.scss';
+import './style.scss';
 
 const body = `<body class="d-flex flex-column min-vh-100">
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
