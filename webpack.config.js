@@ -1,7 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
-  devtool: 'source-map',
+const config = {
   mode: process.env.NODE_ENV || 'development',
   module: {
     rules: [
@@ -27,4 +26,11 @@ module.exports = {
       template: 'template.html',
     }),
   ],
+};
+
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    config.devtool = 'source-map';
+  }
+  return config;
 };
