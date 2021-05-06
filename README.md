@@ -1,5 +1,5 @@
 # RSS Reader
-[RSS Reader](https://cool-rss-reader.vercel.app/) is simple way to track your favorite rss links.
+<a href="https://cool-rss-reader.vercel.app/" target="_blank" rel="noopener noreferrer">RSS Reader</a> is simple way to track your favorite rss links.
 
 - Use any RSS sources
 - Receive actual data
