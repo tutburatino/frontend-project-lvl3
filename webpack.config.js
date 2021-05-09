@@ -19,6 +19,10 @@ const config = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.html/,
+        type: 'asset/source',
+      },
     ],
   },
   plugins: [
